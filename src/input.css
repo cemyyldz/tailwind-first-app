@@ -10,6 +10,10 @@
   --color-gega-melon: #FFD369;
   --color-gega-grey: #DDDDDD;
   --color-gega-white: #F7F7F7;
+
+
+
+  --spacing-128: 32rem;
 }
 
 @utility container {
@@ -26,5 +30,19 @@
 
   @variant 2xl {
     max-width: 1140px;
+  }
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-gemunu uppercase;
+  }
+
+  h2 {
+    @apply text-2xl tracking-wider;
+  }
+
+  a {
+    @apply font-gemunu;
   }
 }
