@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+
+@theme {
+  --font-gemunu: "Gemunu Libre", sans-serif;
+  --font-open: "Open Sans", sans-serif;
+
+  /* Renkler */
+  --color-gega-red: #BC1A45;
+  --color-gega-melon: #FFD369;
+  --color-gega-grey: #DDDDDD;
+  --color-gega-white: #F7F7F7;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+
+  @variant lg {
+    max-width: 1140px;
+  }
+
+  @variant xl {
+    max-width: 1140px;
+  }
+
+  @variant 2xl {
+    max-width: 1140px;
+  }
+}
